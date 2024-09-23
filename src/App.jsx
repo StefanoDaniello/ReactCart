@@ -16,14 +16,14 @@ function App() {
   return (
     <ContextProvider>
       <div className="container d-flex">
-        {/* <ListComponents></ListComponents>
-        <CartComponents></CartComponents> */}
+        <ListComponents></ListComponents>
+        <CartComponents></CartComponents> 
         {/* <GestioneDati></GestioneDati> */}
       </div>
       {/* <ModulodiRegistrazione></ModulodiRegistrazione> */}
-      <Contatore></Contatore>
+      {/* <Contatore></Contatore>
       <ToDo></ToDo>
-      <GestionePannelli></GestionePannelli>
+      <GestionePannelli></GestionePannelli> */}
     </ContextProvider>
   )
 }
